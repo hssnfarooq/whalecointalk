@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -528,7 +529,7 @@ header #menu-bars {
 
 .team-content .team-card {
   width: 23.5rem;
-  height: 32rem;
+  height: 37rem;
   background: #fff;
   color: #222222;
   text-align: center;
@@ -542,6 +543,10 @@ header #menu-bars {
 
 .team-content .team-card .team-card-info {
   padding-top: 1.5rem;
+}
+
+.team-content .team-card .team-card-info p {
+  line-height: 1.4;
 }
 
 /* Insta-Feed */
@@ -952,5 +957,10 @@ header #menu-bars {
   .hero-image {
     height: 45rem;
     margin-top: 7.5rem;
+  }
+
+  .team-content .team-card {
+    width: 25rem;
+    height: 35rem;
   }
 }
